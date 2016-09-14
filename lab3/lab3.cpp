@@ -8,8 +8,8 @@ int main() {
 
 string nameMale = "";
 string nameFemale = "";
+string noun = "";
 
-char city;
 int numAgo;
 int numSince;
 float mileTime;
@@ -24,7 +24,7 @@ At the speed of light, Flash can run a mile in 5.3 microseconds!
 */
 
 cout << "Please enter a city." << endl;
-cin >> city;
+cin >> noun;
 
 cout << "Please enter a male name." << endl;
 cin >> nameMale;
@@ -43,7 +43,7 @@ cin >> mileTime;
 
 
 
-cout << "In " << city << " lives The Flash. " << endl;
+cout << "In " << noun << " lives The Flash. " << endl;
 cout << "His real name is " << nameMale << "." << endl; 
 cout << "It was " << numAgo << " years ago when his mom died." << endl;
 cout << nameMale << " has been in love with his bestfriend " << nameFemale << ", since he was " << numSince << " years old." << endl;
