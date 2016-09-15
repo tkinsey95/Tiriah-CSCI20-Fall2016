@@ -13,7 +13,23 @@ string noun = "";
 int numAgo;
 int numSince;
 float mileTime;
-
+                  
+    cout << "      /\\           " << endl;
+    cout << "     /   /       " << endl;
+    cout << "    /   /       " << endl;
+    cout << "   /   /     " << endl;
+    cout << "  /   \\           " << endl;
+    cout << " \\    \\     " << endl;
+    cout << "  \\    \\     " << endl;
+    cout << "   \\    \\    " << endl;
+    cout << "    \\    \\   " << endl;
+    cout << "    /  /    " << endl;
+    cout << "   /  /    " << endl;
+    cout << "  / /       " << endl;
+    cout << " //         " << endl;
+    cout << "/          " << endl;
+    // © Copyright Tiriah Kinsey 2016
+     
 /* 
 The Story of The Flash
 
@@ -42,7 +58,6 @@ cout << "Please a decimal number." << endl;
 cin >> mileTime;
 
 
-
 cout << "In " << noun << " lives The Flash. " << endl;
 cout << "His real name is " << nameMale << "." << endl; 
 cout << "It was " << numAgo << " years ago when his mom died." << endl;
@@ -52,3 +67,4 @@ cout << "At the speed of light, Flash can run a mile in " << mileTime << " micro
 return 0;
 
 }
+
