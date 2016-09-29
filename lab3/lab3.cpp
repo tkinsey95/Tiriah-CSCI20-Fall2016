@@ -14,7 +14,7 @@ int numAgo;
 int numSince;
 float mileTime;
                   
-    cout << "      /\\           " << endl;
+    cout << "      ____          " << endl;
     cout << "     /   /       " << endl;
     cout << "    /   /       " << endl;
     cout << "   /   /     " << endl;
