@@ -5,7 +5,7 @@ int main() {
     
     //Problem 1
     int suzyAge, johnAge;
-    int result;
+   
     
     suzyAge = 25;
     johnAge = 21;
