@@ -149,24 +149,29 @@
       cout << "Monster One: " << endl; 
       cout << "Head " << monsterOne.head <<endl;
       cout << "Eyes " << monsterOne.eyes <<endl; 
-      cout << "Ears " << monsterOne.head <<endl;
-      cout << "Head " << monsterOne.head <<endl;
+      cout << "Ears " << monsterOne.ears <<endl;
+      cout << "Nose " << monsterOne.nose <<endl;
+      cout << "Mouth " << monsterOne.mouth << endl;
       
       cout << "Monster Two: " << endl; 
       cout << "Head " << monsterTwo.head <<endl;
       cout << "Eyes " << monsterTwo.eyes <<endl; 
-      cout << "Ears " << monsterTwo.head <<endl;
-      cout << "Head " << monsterTwo.head <<endl;
+      cout << "Ears " << monsterTwo.ears <<endl;
+      cout << "Nose " << monsterTwo.nose <<endl;
+      cout << "Mouth " << monsterTwo.mouth <<endl;
+      
       
       cout << "Monster Three: " << endl; 
       cout << "Head " << monsterThree.head <<endl;
       cout << "Eyes " << monsterThree.eyes <<endl; 
       cout << "Ears " << monsterThree.head <<endl;
-      cout << "Head " << monsterThree.head <<endl;
+      cout << "Nose " << monsterThree.nose << endl;
+      cout << "Mouth " << monsterThree.mouth <<endl;
       
       cout << "Monster Four: " << endl; 
       cout << "Head " << monsterFour.head <<endl;
       cout << "Eyes " << monsterFour.eyes <<endl; 
       cout << "Ears " << monsterFour.head <<endl;
-      cout << "Head " << monsterFour.head <<endl;
+      cout << "Nose " << monsterFour.nose << endl;
+      cout << "Mouth " << monsterFour.mouth <<endl;
   }
