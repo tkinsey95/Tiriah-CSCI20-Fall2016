@@ -19,7 +19,7 @@ int main() {
     
     x = 7;
     y = 7;
-    result = true;
+   bool result;
     cout << "The variable x is greater than or equal to the variable y." << (x>=y) << endl;
     
     
