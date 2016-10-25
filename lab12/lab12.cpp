@@ -8,9 +8,20 @@ int main() {
     int outdoors = 0;
     int yes = 1;
     int no = 2;
+    
+    
 
-cout << "Enter yes or no if you like the outdoors: ";
-cin >> outdoors;
+
+   cout << "Enter yes or no if you like the outdoors: ";
+   cin  >> outdoors;
+
+   switch (outdoors) {
+      case 0:
+         cout << "Do you like to run: ?" << endl;
+         
+         break;
+   }
+
 
 if (outdoors == yes) { 
     cout << "Do you like to run: ?" << endl;
@@ -30,22 +41,23 @@ else if  (outdoors == no) {
         cout << "Do you like to swim?" << endl;
         cin >> swim;
     }
-    
-    if (swim == yes) {
-        cout << "You are a fish!" << endl;
-    }
-    
-    if (swim == no) {
-        cout << "You are a cat!" << endl;
-    }
-    
-    if (run == yes) {
+     if (swim == yes) {
+         cout << "You are a fish!" << endl;
+         cin >> swim;
+     }
+     
+     if (swim == no) {
+         cout << "You are a cat!" << endl;
+     }
+        
+     if (run == yes) {
         cout << "You are a horse!" << endl;
+        cin>>run;
     }
     
     if (run == no) {
         cout << "You are a turtle!" << endl;
     }
-    
+     
 
 }
