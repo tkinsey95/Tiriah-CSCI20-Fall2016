@@ -18,7 +18,7 @@ int main () {
     int menuNum[10] = {0,0,0,0,0,0,0,0,0,0};
     char userIn = '0';
     string menu[10];
-    int userChoice = '0';
+    int userChoice = 'd';
     int i = 0;
     char done;
     done = 'd'; 'D';
