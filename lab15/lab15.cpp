@@ -18,7 +18,7 @@ int main () {
     int menuNum[10] = {0,0,0,0,0,0,0,0,0,0};
     char userIn = '0';
     string menu[10];
-    int userChoice = 'd';
+    char userChoice = 'x';
     int i = 0;
     char done;
     done = 'd'; 'D';
@@ -39,14 +39,14 @@ int main () {
     
 
     
-    while (userChoice != 'D' || userChoice != 'd') {
+    while (userChoice != 'D' && userChoice != 'd') {
         
         
         cout << "Choose type d or D to indicate that you are done choosing an item." << endl; 
         cout << "To select an item off of the menu select a number:  " << endl;
         cin >> userChoice;    
       
-    }
+    
     
    if (userChoice <= 9) {
     
@@ -65,5 +65,6 @@ int main () {
     cin >> done;
    
     
+    }
     }
 }
