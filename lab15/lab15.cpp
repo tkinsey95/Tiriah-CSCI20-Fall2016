@@ -9,6 +9,10 @@ using namespace std;
  }
  
 int main () {
+   int amntItems[10]; 
+   int nthAmntItems = 0; 
+      
+   
     int menuNum[10] = {0,0,0,0,0,0,0,0,0,0};
     
     char userIn = '0';
@@ -55,5 +59,23 @@ int main () {
     
    
     }
+    
+       
+int amntEnchiladas = 0;
+int amntHamburgers = 1;
+int amntBurriots = 2;
+int amntTacos = 3;
+int amntSalad = 4;
+int amntCheesecake = 5;
+int amntMuffins = 6;
+int amntPancakes = 7;
+int amntHashbrowns = 8;
+int amntPizza = 9;
+int totalAmntItems = 10;
+
+totalAmntItems = amntEnchiladas + amntHamburgers + amntBurriots + amntTacos + amntSalad + amntCheesecake + amntMuffins + amntPancakes + amntHashbrowns + amntPizza;
+cout << "Your total items: " << totalAmntItems << endl;
+    
+
     
 }
