@@ -48,7 +48,7 @@ int main () {
 
         cout << " selected " << menuNum[i] << " time." << endl;*/
 
-    cout<< userChoice << "Goodbye." << endl;
+    cout << "Goodbye." << endl;
 
     cin >> done;
     }    
