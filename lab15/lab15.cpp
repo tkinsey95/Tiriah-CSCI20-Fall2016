@@ -50,7 +50,7 @@ int main () {
 
     cout << "Goodbye." << endl;
 
-    cin >> done;
+    
     }    
     
    
