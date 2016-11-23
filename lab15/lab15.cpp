@@ -5,6 +5,7 @@ using namespace std;
  void menuOptions(string menu[]) {
      for (int i=0; i <10; i++)
         cout << menu[i] << endl;
+       
  }
  
 int main () {
@@ -41,10 +42,18 @@ int main () {
 
     
     if ( userChoice == 'd' || userChoice == 'D') {
-    cout << "Goodbye." << endl;
-    cin >> done;
-   
     
+  /*  for (i = 0, i < 10; i++;) {
+    
+
+        cout << " selected " << menuNum[i] << " time." << endl;*/
+
+    cout<< userChoice << "Goodbye." << endl;
+
+    cin >> done;
+    }    
+    
+   
     }
-    }
+    
 }
