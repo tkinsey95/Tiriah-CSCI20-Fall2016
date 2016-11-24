@@ -9,11 +9,11 @@ using namespace std;
  }
  
 int main () {
-   int amntItems[10]; 
-   int nthAmntItems = 0; 
+ 
       
    
     int menuNum[10] = {0,0,0,0,0,0,0,0,0,0};
+    
     
     char userIn = '0';
     string menu[10] = {"Enchiladas", "Hamburgers", "Burritos", "Tacos" "Salad", "Cheesecake", "Muffins", "Pancakes", "Hashbrowns", "Pizza"};
@@ -46,11 +46,7 @@ int main () {
 
     
     if ( userChoice == 'd' || userChoice == 'D') {
-    
-  /*  for (i = 0, i < 10; i++;) {
-    
-
-        cout << " selected " << menuNum[i] << " time." << endl;*/
+   menuNum[userChoice - 48] = 1;
 
     cout << "Goodbye." << endl;
 
@@ -59,6 +55,6 @@ int main () {
     
    
     }
-
+cout << "you chose: " << menuNum[userChoice + 48] << endl;
     
 }
